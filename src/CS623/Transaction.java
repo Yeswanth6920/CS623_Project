@@ -27,7 +27,7 @@ public class Transaction {
 
 			// Connect to the default database with credentials
 			connect = DriverManager.getConnection(
-					"jdbc:postgresql://localhost:5432/postgres?useSSL=false&amp;serverTimezone=UTC", "postgres",
+					"jdbc:postgresql://localhost:5433/postgres?useSSL=false&amp;serverTimezone=UTC", "postgres",
 					"root");
 
 			// For atomicity
@@ -130,7 +130,7 @@ public class Transaction {
 
 			// Connect to the default database with credentials
 			connect = DriverManager.getConnection(
-					"jdbc:postgresql://localhost:5432/postgres?useSSL=false&amp;serverTimezone=UTC", "postgres",
+					"jdbc:postgresql://localhost:5433/postgres?useSSL=false&amp;serverTimezone=UTC", "postgres",
 					"root");
 
 			// For atomicity
